@@ -4,7 +4,7 @@ A Tic Tac Toe game played in the terminal, written in C++.
 
 This was the first small game project built as part of my C++ learning experience.
 
-I wanted to use this project to put into practice some of the C++ topics that I had learnt from a course. These included:
+I wanted to use this project to apply some of the C++ topics I have learned from a course. These include:
 
 - loops
 - vectors
@@ -16,18 +16,9 @@ I wanted to use this project to put into practice some of the C++ topics that I 
 
 ## Installation and Setup Instructions
 
-MacOS includes Clang as part of the Xcode Command Line Tools, which you need to install to compile C++ applications.
+Make sure you have a C++ compiler installed. For example G++.
 
-Run the following command to check if you have Xcode Command Line Tools installed:
-
-```
-xcode-select --install
-```
-
-If the tools are not already installed, you will be prompted to install them. Follow the on-screen instructions.
-
-Check if the installation was successful by running the following command which will print the C++ compiler version installed on your system:
-
+You can check if you have this installed by running the following command which prints the G++ version installed on your system.
 ```
 g++ --version
 ```
@@ -40,7 +31,7 @@ Compile the files:
 g++ -std=c++11 tic_tac_toe.cpp tic_tac_toe_fn.cpp
 ```
 
-Run the game:
+Run the game.
 
 ```
 ./a.out
